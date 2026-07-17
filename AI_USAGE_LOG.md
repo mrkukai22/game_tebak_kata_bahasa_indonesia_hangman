@@ -51,23 +51,17 @@ pelaporan bug, penolakan output yang tidak masuk akal, dan keputusan revisi.
 - menjalankan validator bank data;
 - melakukan manual acceptance test;
 - mengumpulkan bukti screenshot Windows;
-- menjalankan pengujian Google Colab;
-- mengumpulkan bukti Colab;
 - membuat dan mempublikasikan repository GitHub.
 
 ### Andri
-
-Kontribusi Andri belum memiliki bukti digital yang cukup pada riwayat yang
-tersedia untuk ditulis sebagai fakta. Agar tetap jujur, bagian ini harus
-dikonfirmasi Andri sebelum submission.
-
-Pembagian tanggung jawab yang masuk akal untuk finalisasi:
 
 - review tampilan dan kemudahan penggunaan;
 - menguji alur permainan dan leaderboard;
 - membantu memeriksa laporan dan slide;
 - menyiapkan bagian presentasi tentang fitur dan demo;
 - membantu menjawab pertanyaan dasar tentang alur game.
+- menjalankan pengujian Google Colab;
+- mengumpulkan bukti Colab;
 
 Status: **perlu dikonfirmasi sebagai pekerjaan yang benar-benar dilakukan**.
 
