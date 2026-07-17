@@ -12,7 +12,7 @@
 - **Mata kuliah:** Algoritma dan Pemrograman
 - **Tanggal mulai:** 16 Juni 2026
 - **Tanggal pembaruan log:** 17 Juli 2026
-- **Tanggal selesai final:** Belum selesai pada saat log ini dibuat
+- **Tanggal selesai final:** 17 Juli 2026
 - **Anggota:**
   1. Ariq Gymnastiar Prabowo — 0102521704
   2. Andri — 0102520032
@@ -51,6 +51,7 @@ pelaporan bug, penolakan output yang tidak masuk akal, dan keputusan revisi.
 - menjalankan validator bank data;
 - melakukan manual acceptance test;
 - mengumpulkan bukti screenshot Windows;
+- menjalankan pengujian Google Colab;
 - membuat dan mempublikasikan repository GitHub.
 
 ### Andri
@@ -60,7 +61,6 @@ pelaporan bug, penolakan output yang tidak masuk akal, dan keputusan revisi.
 - membantu memeriksa laporan dan slide;
 - menyiapkan bagian presentasi tentang fitur dan demo;
 - membantu menjawab pertanyaan dasar tentang alur game.
-- menjalankan pengujian Google Colab;
 - mengumpulkan bukti Colab;
 
 ## 4. Detail Interaksi dengan AI
