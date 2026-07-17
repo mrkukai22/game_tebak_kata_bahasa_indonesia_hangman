@@ -1,0 +1,25 @@
+[project]
+name = "game-tebak-kata-bahasa-indonesia"
+version = "3.1.0"
+description = "Aplikasi konsol Hangman dengan bank kata Bahasa Indonesia lokal"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.black]
+line-length = 88
+target-version = ["py311"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.coverage.run]
+branch = true
+source = ["game"]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 95

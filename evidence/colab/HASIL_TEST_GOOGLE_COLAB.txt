@@ -1,0 +1,10 @@
+HASIL PENGUJIAN GOOGLE COLAB
+Tanggal UTC       : 2026-07-17T09:11:31.033559+00:00
+Python            : 3.12.13
+Platform          : Linux-6.6.122+-x86_64-with-glibc2.35
+Versi aplikasi    : 3.1.0
+Automated test    : LULUS
+Validator data    : LULUS
+Smoke test manual : LULUS
+Penguji           : Ariq
+Catatan           : Tidak ada masalah selama pengujian Google Colab.

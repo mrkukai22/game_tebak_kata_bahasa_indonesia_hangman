@@ -1,0 +1,133 @@
+HASIL PENGUJIAN RELEASE 3.1.0
+Pembaruan dokumentasi: 17 Juli 2026
+
+============================================================
+A. AUTOMATED REGRESSION TEST — RELEASE BERSIH
+============================================================
+
+Perintah:
+python -m unittest discover -s tests -v
+
+Hasil:
+Ran 52 tests
+OK
+
+Ringkasan:
+Automated tests : 52/52 LULUS
+Version sync    : LULUS
+Leaderboard awal distribusi: KOSONG
+
+============================================================
+B. VALIDASI BANK DATA
+============================================================
+
+VALID: Struktur dan metadata bank kata konsisten.
+Kategori : 24
+Entri    : 2059
+Frasa    : 397
+Versi    : 3.1.0
+
+Status: LULUS
+
+============================================================
+C. MANUAL ACCEPTANCE TEST — WINDOWS
+============================================================
+
+Penguji       : Ariq
+Tanggal       : 15–16 Juli 2026
+Sistem operasi: Windows
+Python        : 3.12.0
+Mode          : python main.py --no-clear
+
+1. Alur normal, menang, leaderboard, dan keluar
+   Kategori    : Warna
+   Kesulitan   : Mudah / level 1
+   Jawaban     : NILA
+   Skor        : 140
+   Status      : LULUS
+
+2. Menyerah
+   Kategori    : Warna
+   Kesulitan   : Sedang / level 2
+   Jawaban     : GADING
+   Skor        : 0
+   Leaderboard : tidak bertambah
+   Status      : LULUS
+
+3. Kalah karena kesempatan habis
+   Kategori    : Warna
+   Kesulitan   : Sulit / level 3
+   Jawaban     : TEMBAGA
+   Skor        : 0
+   Leaderboard : tidak bertambah
+   Status      : LULUS
+
+4. Dukungan frasa
+   Kategori    : Negara
+   Kesulitan   : Sulit / level 3
+   Jawaban     : REPUBLIK AFRIKA TENGAH
+   Jumlah kata : 3
+   Skor        : 960
+   Status      : LULUS
+
+5. Menu informasi dan ganti nama
+   Cara bermain       : LULUS
+   Tentang proyek     : LULUS
+   Nama kosong ditolak: LULUS
+   Ariq -> Andri      : LULUS
+
+Manual scenario groups: 5/5 LULUS
+
+Bukti:
+docs/MANUAL_TEST_REPORT.md
+evidence/manual_test/
+
+============================================================
+D. COVERAGE DAN QUALITY CHECK RELEASE 3.1.0
+============================================================
+
+Branch coverage package game : 99%
+Missed statements             : 0
+Syntax/compile                : LULUS
+Smoke test                    : LULUS
+
+============================================================
+E. PENGUJIAN GOOGLE COLAB
+============================================================
+
+Penguji       : Ariq
+Tanggal       : 17 Juli 2026
+Python        : 3.12.13
+Platform      : Linux-6.6.122+-x86_64-with-glibc2.35
+Versi aplikasi: 3.1.0
+
+Automated test : 52/52 LULUS
+Validator data : LULUS
+Smoke test     : LULUS
+Keluar normal  : LULUS
+
+Smoke test:
+Kategori       : Warna
+Kesulitan      : Mudah / level 1
+Jawaban        : MERAH
+Skor           : 175
+
+Bukti:
+docs/COLAB_TEST_REPORT.md
+evidence/colab/
+
+============================================================
+F. STATUS KESELURUHAN
+============================================================
+
+Automated tests       : LULUS
+Bank validator        : LULUS
+Manual test Windows   : LULUS
+Google Colab          : LULUS
+Evidence screenshots  : TERSEDIA
+
+KESIMPULAN:
+Release 3.1.0 lulus pengujian otomatis, validasi bank data, manual acceptance
+testing pada Windows dengan Python 3.12.0, serta pengujian Google Colab dengan
+Python 3.12.13. Tahap pengujian dinyatakan selesai. Finalisasi AI Usage Log,
+dokumen akademik, dan presentasi tetap harus diselesaikan sebelum submission.
