@@ -150,3 +150,6 @@ Dokumentasi dan bukti:
 
 - `docs/COLAB_TEST_REPORT.md`
 - `evidence/colab/`
+
+## COLAB :
+https://colab.research.google.com/drive/1uY7mJD_JyrACA-2S2SmUE_enucweNPPr?usp=sharing
